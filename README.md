@@ -1,5 +1,11 @@
 # 📊 Website Performance Forecasting & Engagement Analysis
 
+
+
+
+<img src="https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Intro_Image.PNG" alt="Intro Image" style="width:100%; height:450;">
+
+
 ## 📌 Project Overview
 This project applies **time series analysis** to website performance data, exploring hourly traffic, sessions, engagement, and conversions across marketing channels such as **Direct, Organic Search, Organic Social, and Referrals**.  
 
