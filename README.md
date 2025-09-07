@@ -28,7 +28,7 @@ The goal is to uncover patterns, forecast trends, detect anomalies, and provide 
   - Event Count  
   - Channel Group (Direct, Organic, Referral, etc.)
 
-👉 *![Sample Dataset Screenshot](images/sample_dataset.png)*
+ *![Sample Dataset Screenshot](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/raw_data.PNG)*
 
 ---
 
@@ -81,7 +81,7 @@ df['week_of_year'] = df.index.isocalendar().week
 ```
 
 ---
-*![Sample Cleaned Dataset](images/sample_dataset.png)*
+*![Sample Cleaned Dataset](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Transformed_Data.PNG)*
 
 ---
 
@@ -91,8 +91,11 @@ df['week_of_year'] = df.index.isocalendar().week
 - Channel Analysis revealed **Organic Social** as the top driver of traffic & engagement.  
 - Time-series plots highlighted **midday traffic spikes** and **variable engagement rates**.  
 
-👉 *![Distributions](images/distributions.png)*  
-👉 *![Channel Analysis](images/channel_analysis.png)*  
+ *![Distributions](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Distribution_Plots.PNG)*  
+
+
+ 
+👉 *![Channel Analysis](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Channel_Analysis.PNG)*  
 👉 *![Time Series Trends](images/time_trends.png)*  
 
 ---
