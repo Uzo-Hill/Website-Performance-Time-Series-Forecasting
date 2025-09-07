@@ -91,12 +91,23 @@ df['week_of_year'] = df.index.isocalendar().week
 - Channel Analysis revealed **Organic Social** as the top driver of traffic & engagement.  
 - Time-series plots highlighted **midday traffic spikes** and **variable engagement rates**.  
 
- *![Distributions](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Distribution_Plots.PNG)*  
+Distribution plots: *![Distributions](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Distribution_Plots.PNG)*  
+
+ 
 
 
  
-👉 *![Channel Analysis](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Channel_Analysis.PNG)*  
-👉 *![Time Series Trends](images/time_trends.png)*  
+Channel Analysis:  *![Channel Analysis](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Channel_Analysis.PNG)*  
+
+
+
+
+
+Time series Trends: *![Time Series Trends](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/TimeSeriesPattern.PNG)*  
+
+
+
+Correlation Matrix: *![Correlation Matrix](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Correlation_Matrix.PNG)* 
 
 ---
 
@@ -104,7 +115,10 @@ df['week_of_year'] = df.index.isocalendar().week
 - Weekly seasonality patterns identified for **Users**.  
 - Engagement Rate showed a temporary **decline mid-April** before recovery.  
 
-👉 *![Decomposition](images/decomposition.png)*
+ *![Decomposition](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Series_Decomposition_Users.PNG)*
+
+ *![Decomposition](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/Series_Decomposition_EngagementRate.PNG)*
+
 
 ---
 
@@ -115,10 +129,14 @@ Models tested:
 - **Naive Forecast (last value)**  
 - **Simple Exponential Smoothing (SES)**  
 
-👉 *![ACF/PACF](images/acf_pacf.png)*  
-👉 *![Forecast Comparison](images/forecast_comparison.png)*  
+ACF and PACF Plot: *![ACF/PACF](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/ACF_PACF.PNG)*  
+
+
+
+Forecast Comparison: *![Forecast Comparison](https://github.com/Uzo-Hill/Website-Performance-Time-Series-Forecasting/blob/main/ForecastPrediction.PNG)*  
 
 ---
+
 
 ## 📊 Model Evaluation
 Metrics used: **MAE, RMSE, MAPE**  
@@ -144,7 +162,21 @@ Metrics used: **MAE, RMSE, MAPE**
 
 ---
 
+## 📢 Recommendations
+1. **Collect more data** (3–6 months) for better long-term forecasting.  
+2. Invest in **Organic Social** while boosting underperformers like Direct.  
+3. Optimize timing: post during **midday & midweek peaks**.  
+4. Monitor regularly with **moving averages** and update forecasts monthly.  
 
+---
+
+## 👤 Author
+**Uzoh C. Hillary** – Data Scientist / Data Analyst  
+
+- GitHub: [Uzo-Hill](https://github.com/Uzo-Hill)  
+- LinkedIn: [Hillary Uzoh](http://www.linkedin.com/in/hillaryuzoh)  
+
+---
 
 
 
