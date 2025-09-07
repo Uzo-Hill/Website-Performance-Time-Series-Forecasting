@@ -164,7 +164,8 @@ Metrics used: **MAE, RMSE, MAPE**
 - **Organic Social** drives the highest traffic and engagement.  
 - **Daily cycles dominate** over weekly seasonality.  
 - ARIMA reduced prediction error by **53%** compared to the naive model.  
-- Engagement Rate predictions achieved **96% accuracy** (MAPE ~3.9%).  
+- Engagement Rate predictions achieved **96% accuracy** (MAPE ~3.9%).
+-  Both Users and Engagement Rate series are stationary (p < 0.05) 
 
 ---
 
@@ -172,7 +173,8 @@ Metrics used: **MAE, RMSE, MAPE**
 1. **Collect more data** (3–6 months) for better long-term forecasting.  
 2. Invest in **Organic Social** while boosting underperformers like Direct.  
 3. Optimize timing: post during **midday & midweek peaks**.  
-4. Monitor regularly with **moving averages** and update forecasts monthly.  
+4. Monitor regularly with **moving averages** and update forecasts monthly.
+5. Implement LSTM and Prophet for complex seasonality  
 
 ---
 
