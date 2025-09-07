@@ -176,6 +176,10 @@ Metrics used: **MAE, RMSE, MAPE**
 
 ---
 
+**Challenge:** The dataset only had 28 days of data time, which made long-term seasonality hard to capture. To overcome this, I compared multiple simple models and used decomposition to uncover short-term patterns.
+
+
+---
 ## 👤 Author
 **Uzoh C. Hillary** – Data Scientist / Data Analyst  
 
